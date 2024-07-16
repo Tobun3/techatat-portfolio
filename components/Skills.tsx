@@ -125,7 +125,7 @@ export function Skills() {
         >
           <div className='flex flex-col gap-[30px]'>
             <div className='flex flex-col gap-[30px] text-center xl:text-left'>
-              <ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]'>
+              <ul className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px] '>
                 {skills.skillList.map((skill, index) => (
                   <li
                     key={index}
