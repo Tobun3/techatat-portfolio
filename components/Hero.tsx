@@ -45,30 +45,39 @@ const Hero = () => {
         <div className='absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]' />
       </div>
       <div className='flex justify-center relative my-20 z-10'>
-        <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center:'>
-          <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-            &#123; Software | Full-Stack &#125; Developer
-          </h2>
-          {/*<TextGenerateEffect
+        <div className='py-20 grid grid-cols-1 md:grid-cols-2'>
+          <div className='max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
+            <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
+              &#123; Software | Full-Stack &#125; Developer
+            </h2>
+            {/*<TextGenerateEffect
             className='text-center text-[40px] md:text-5xl lg:text-6xl'
             words='Transforming Concepts into Seamless User Experiences'
           />*/}
-          <TypewriterEffectSmooth words={words} />
+            <TypewriterEffectSmooth words={words} />
 
-          <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-            I&apos;m a soon-to-be graduate in Computer Programming with hands-on
-            experience in Next.js, Node.js, JavaScript, C++, Java, and Python. I
-            love creating efficient and elegant solutions to complex problems.
-            Let&apos;s build something amazing together!
-          </p>
+            <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+              I&apos;m a soon-to-be graduate in Computer Programming with
+              hands-on experience in Next.js, Node.js, JavaScript, C++, Java,
+              and Python. I love creating efficient and elegant solutions to
+              complex problems. Let&apos;s build something amazing together!
+            </p>
 
-          <a href='/techatat_resume.pdf' download>
-            <MagicButton
-              title='DOWNLOAD CV'
-              icon={<FiDownload />}
-              position='right'
+            <a href='/techatat_resume.pdf' download>
+              <MagicButton
+                title='DOWNLOAD CV'
+                icon={<FiDownload />}
+                position='right'
+              />
+            </a>
+          </div>
+          <div>
+            <img
+              src='/hero3.png'
+              alt='hero'
+              className='sm:w-[50%] sm:h-[50%] md:w-full md:h-full object-cover object-center mx-auto'
             />
-          </a>
+          </div>
         </div>
       </div>
     </div>
