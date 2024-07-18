@@ -3,7 +3,7 @@ import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
@@ -56,6 +56,7 @@ export const BentoGridItem = ({
 
     setCopied(true);
   };
+
   return (
     <div
       className={cn(
@@ -108,7 +109,7 @@ export const BentoGridItem = ({
           <div className='font-sans font-extralight text-[#c1c2c3] text-sm md:text-xs lg:text-base z-10'>
             {description}
           </div>
-          <div className='font-sans font-bold text-lg lg:text-3xl max-w-96 z-10'>
+          <div className='font-sans text-lg lg:text-3xl max-w-96 z-10'>
             {title}
           </div>
 

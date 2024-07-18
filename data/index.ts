@@ -248,15 +248,15 @@ export const myEducation = [
   },*/
 ];
 
-export const socialMedia = [
-  {
-    id: 1,
-    img: "/git.svg",
-    url: "https://github.com/Tobun3",
-  },
-  {
-    id: 2,
-    img: "/link.svg",
-    url: "https://www.linkedin.com/in/techatat-obun-423180240/",
-  },
-];
+// export const socialMedia = [
+//   {
+//     id: 1,
+//     img: "/git.svg",
+//     url: "https://github.com/Tobun3",
+//   },
+//   {
+//     id: 2,
+//     img: "/link.svg",
+//     url: "https://www.linkedin.com/in/techatat-obun-423180240/",
+//   },
+// ];
