@@ -16,7 +16,7 @@ const socials: SocialLink[] = [
   { icon: <FaGithub />, path: "https://github.com/Tobun3" },
   {
     icon: <FaLinkedin />,
-    path: "https://www.linkedin.com/in/techatat-obun-423180240/",
+    path: "https://www.linkedin.com/in/techatat-obun/",
   },
   //{ icon: <FaTwitter />, path: "https://twitter.com/yourhandle" },
   //{ icon: <FaYoutube />, path: "https://youtube.com/yourchannel" },
