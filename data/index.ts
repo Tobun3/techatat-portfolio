@@ -114,6 +114,15 @@ export const projects = [
     link: "",
     gitHub: "https://github.com/Tobun3/Disaster-and-Emergency-Aid-Management",
   },
+  {
+    id: 5,
+    title: "Promptify",
+    des: "Promptify is an open-source AI prompting tool for modern world to discover, create and share creative prompts",
+    img: "/promptify.png",
+    iconLists: ["/re.svg", "/next.svg", "/js.webp", "/mongo.png"],
+    link: "https://promptify-xi.vercel.app/",
+    gitHub: "https://github.com/Tobun3/promptify",
+  },
 ];
 
 export const testimonials = [
