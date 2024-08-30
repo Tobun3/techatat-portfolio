@@ -62,7 +62,7 @@ const Hero = () => {
             </p>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
               <a
-                href='/techatat_resume.pdf'
+                href='/techatat_resume_v2.pdf'
                 download
                 className='flex items-center justify-center'
               >
