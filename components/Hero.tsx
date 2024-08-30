@@ -55,10 +55,10 @@ const Hero = () => {
             <TypewriterEffectSmooth words={words} />
 
             <p className='md:text-left text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl font-thin'>
-              I&apos;m a soon-to-be graduate in Computer Programming with
-              hands-on experience in Next.js, Node.js, JavaScript, C++, Java,
-              and Python. I love creating efficient and elegant solutions to
-              complex problems. Let&apos;s build something amazing together!
+              I&apos;m a recent graduate in Computer Programming with hands-on
+              experience in Next.js, Node.js, JavaScript, C++, Java, and Python.
+              I love creating efficient and elegant solutions to complex
+              problems. Let&apos;s build something amazing together!
             </p>
             <div className='flex flex-col xl:flex-row items-center gap-8'>
               <a
